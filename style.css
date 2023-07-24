@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'Inter', sans-serif;
+    background-image: url("./image/background.jpg");
+    background-position: center;
+}
+
+.container {
+
+    gap: 30px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 1);
+    max-height: max-content;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    
+
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+p {
+    padding: 20px 0;
+}
+
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.price-month {
+    color:rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+ul li {
+    list-style-type:none;
+}
+
+ul li:before {
+    content: '✓';
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+a {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 10px 15px;
+    max-width: max-content;
+    border-radius: 5px;
+}
